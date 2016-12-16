@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "zelak312/d-util#indev",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "zelak312/d-util#indev",
+        "spec": "github:zelak312/d-util#indev",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:zelak312/d-util.git#indev",
+          "sshUrl": "git+ssh://git@github.com/zelak312/d-util.git#indev",
+          "httpsUrl": "git+https://github.com/zelak312/d-util.git#indev",
+          "gitUrl": "git://github.com/zelak312/d-util.git#indev",
+          "shortcut": "github:zelak312/d-util#indev",
+          "directUrl": "https://raw.githubusercontent.com/zelak312/d-util/indev/package.json"
+        }
+      },
+      "/home/logan/Desktop/Tim/Tim/Bot"
+    ]
+  ],
+  "_from": "zelak312/d-util#indev",
+  "_id": "d-util@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/d-util",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "zelak312/d-util#indev",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "zelak312/d-util#indev",
+    "spec": "github:zelak312/d-util#indev",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:zelak312/d-util.git#indev",
+      "sshUrl": "git+ssh://git@github.com/zelak312/d-util.git#indev",
+      "httpsUrl": "git+https://github.com/zelak312/d-util.git#indev",
+      "gitUrl": "git://github.com/zelak312/d-util.git#indev",
+      "shortcut": "github:zelak312/d-util#indev",
+      "directUrl": "https://raw.githubusercontent.com/zelak312/d-util/indev/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "git://github.com/zelak312/d-util.git#3360b354903c34236f701f346fcf8ec62d2b70ec",
+  "_shasum": "e4920ab601359a83e6d545d46b3b60f832710b9b",
+  "_shrinkwrap": null,
+  "_spec": "zelak312/d-util#indev",
+  "_where": "/home/logan/Desktop/Tim/Tim/Bot",
+  "author": {
+    "name": "ZelAk312"
+  },
+  "bugs": {
+    "url": "https://github.com/ZelAk312/d-util/issues"
+  },
+  "dependencies": {
+    "discord.js": "^9.2.0",
+    "moment": "^2.15.1",
+    "simple-youtube-api": "^2.1.0",
+    "youtube-search": "^1.0.6",
+    "ytdl-core": "^0.7.18"
+  },
+  "description": "this is some util functions for discord.js",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "gitHead": "3360b354903c34236f701f346fcf8ec62d2b70ec",
+  "homepage": "https://github.com/ZelAk312/d-util#readme",
+  "keywords": [
+    "discord.js"
+  ],
+  "license": "ISC",
+  "main": "main.js",
+  "name": "d-util",
+  "optionalDependencies": {},
+  "readme": "# d-util",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZelAk312/d-util.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
