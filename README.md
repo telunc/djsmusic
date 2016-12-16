@@ -1,5 +1,5 @@
 # Musics
-
+I didnt know how to add folders with more than a 100 files so extract the node_modules inside :D
 this is indev so if you find errors just make an issues that will really help me :)
 
 ## for discord.js 9.0.0^
