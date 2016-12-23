@@ -1,18 +1,15 @@
 # Musics
-I didnt know how to add folders with more than a 100 files so extract the node_modules inside :D
-this is indev so if you find errors just make an issues that will really help me :)
 
 ## for discord.js 9.0.0^
 
 to install it (not in npm)
-to get the stable version: `npm i zelak312/d-util#master`<br>
-to get the indev version: `npm i zelak312/d-util#indev`
+to get the stable version: `npm i djsmusic`<br>
 
 ---
 Setup:
 
 ```js
-var dutil = require('d-util');
+var dutil = require('djsmusic');
 var music = new dutil.Music(bot, options);
 ```
 if there is a * that means thats its obligatory
