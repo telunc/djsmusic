@@ -2,8 +2,7 @@
 
 ## for discord.js 9.0.0^
 
-to install it (not in npm)
-to get the stable version: `npm i djsmusic`<br>
+to install stable version: `npm i djsmusic`<br>
 
 ---
 Setup:
@@ -60,14 +59,14 @@ leave(channel)<br>
 will leave the channel and return a Promise<br>
 the Promise return nothing if there is no errors
 ```js
-music.connect(channel).then(function(){
+music.leave(channel).then(function(){
   console.log('left');
 }).catch(console.log);
 ```
 
 ---
 play(msg, queue, song)<br>
-msg: is the msg variable that you use<br>
+msg: is the message variable that you use<br>
 queue: is the guild queue that you can get with getQueue<br>
 song: is the name or the link of a youtube video<br>
 return a Promise
@@ -121,6 +120,7 @@ var volume = music.setVolume(guildId, '50');
 # events
 
 newSong:
+will notify if a new song is queued
 ```js
 music.on('newSong', function(songs){
     songs.msg.channel.sendMessage(`Now Playing **${songs.song.name}|[${songs.song.duration}]**|by ***${songs.song.requester}***`);
@@ -129,6 +129,7 @@ music.on('newSong', function(songs){
 
 ---
 queueFinished:
+will notify if queue has finished
 ```js
 music.on('queueFinished', function(options){
    options.msg.channel.sendMessage("No more musics in queue."); 
